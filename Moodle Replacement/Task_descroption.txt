@@ -1,0 +1,25 @@
+Task Description:
+
+This project implements a simple Course Management System that handles students,
+exams, and grades. It supports adding, searching, updating, listing, and deleting
+student and exam records. Exams can be either written (with a specified duration)
+or digital (requiring specific software).
+
+The system processes a set of text commands from an input.txt file and writes the
+corresponding outputs to output.txt. It includes input validation for all fields
+(IDs, names, grades, etc.) and provides appropriate success or error messages
+based on the operations.
+
+Main operations include:
+
+Adding students, exams, and grades
+
+Searching for student or grade information
+
+Updating exam details or grades
+
+Listing all students
+
+Deleting a student (along with all their grades)
+
+The program continues processing commands until the END command is received.
