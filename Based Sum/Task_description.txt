@@ -1,0 +1,20 @@
+Task Description:
+
+Read a list of numbers, each given in different number bases (binary, octal, decimal, or hexadecimal).
+Each number's base is specified separately. Convert all numbers to decimal, adjust them based on their
+index (subtract 10 from even-indexed numbers, add 10 to odd-indexed numbers), and output the sum of the
+final values. If any input is invalid for its specified base, output "Invalid inputs".
+
+Input:
+
+An integer N (number of numbers).
+
+A space-separated list of N numbers.
+
+A list of N bases (2, 8, 10, or 16).
+
+Output:
+
+The total sum after adjustments, or "Invalid inputs" if any number is incorrectly formatted.
+
+Input and output are handled via input.txt and output.txt files.
